@@ -28,8 +28,10 @@ const renderFiles = () => {
 
   <div
 
-  className="outer-container" onMouseMove={handleMouseEnter} onMouseLe ave={handleMouseLeave}
-  > {containers} </div>
+  className="outer-container" >
+  const onMouseMove={handleMouseEnter} 
+  const onMouseLeave={handleMouseLeave}
+   {containers}</div>
 
   );
 
